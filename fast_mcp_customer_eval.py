@@ -166,3 +166,6 @@ def score_breakdown(inputs: Dict[str, Any]) -> Dict[str, Any]:
         "bonus_pool": calc["bonus_pool"]
     }
 # -----------------------------------------------
+
+if __name__ == "__main__":
+    mcp.run()
